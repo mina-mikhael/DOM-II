@@ -4,6 +4,7 @@
   background: @main-bg;
   border-bottom: 2px dashed @navigation-border;
   position: fixed;
+  color: @font-color;
 
   .nav-container {
     height: 100%;
@@ -32,13 +33,37 @@
         width: 100%;
         justify-content: space-around;
       }
-      
-      
+
       a {
         font-size: 1.6rem;
-        color: @font-color;
         text-decoration: none;
       }
     }
   }
 } // .main-navigation
+
+.darkButton {
+  border-radius: 0.7em;
+  border: 1px solid #fff;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  background-color: #000000ee;
+  color: #fff;
+  font-weight: 500;
+}
+
+.hoverLink {
+  font-weight: 700;
+}
+
+.darkHeader {
+  background-color: #050303;
+  color: #fff;
+  margin: none;
+  min-width: 100%;
+  padding: 0 21%;
+}
+
+.linksDark {
+  color: #fff;
+}
